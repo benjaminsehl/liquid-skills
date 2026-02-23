@@ -1,0 +1,24 @@
+{
+  "name": "shopify-liquid-theme-skills",
+  "owner": {
+    "name": "Benjamin Sehl",
+    "email": "ben.sehl@shopify.com"
+  },
+  "metadata": {
+    "description": "Claude Agent Skills for Shopify Liquid theme development",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "shopify-theme-skills",
+      "description": "Liquid language fundamentals, CSS/JS/HTML coding standards, and WCAG accessibility patterns for Shopify themes",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/shopify-liquid-themes",
+        "./skills/liquid-theme-standards",
+        "./skills/liquid-theme-a11y"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# Source repos are external — clone via `dev clone`
+liquid-docs-source/
+horizon-source/
+
+node_modules/
+.DS_Store
+*.zip
+
+# Internal files (excluded from public repo)
+CLAUDE.md
+convert-docs.mjs
